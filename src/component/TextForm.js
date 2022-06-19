@@ -19,8 +19,8 @@ export default function TextForm(props) {
           style={{ backgroundColor: props.mode === "dark" ? "#031432" : "white", color: props.mode === "light" ? "black" : "white", }}
         ></textarea>
       </div>
-      <button type="button" className="btn btn-primary mx-2" onClick={handleUpperCase}>Convert to UpperCase</button>
-      <button type="button" className="btn btn-primary mx-2" onClick={handleLowerCase}>Convert to LowerCase</button>
+      <button type="button" className="btn btn-primary mx-2 my-2" onClick={handleUpperCase}>Convert to UpperCase</button>
+      <button type="button" className="btn btn-primary mx-2 my-3" onClick={handleLowerCase}>Convert to LowerCase</button>
 
       <div className="container my-2"
         style={{ color: props.mode === "light" ? "black" : "white", }}>

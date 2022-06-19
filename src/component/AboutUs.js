@@ -7,7 +7,7 @@ export default function AboutUs(props) {
             <div class="container my-4">
                 <div class="row">
                     <div class="col">
-                        <div class="card" style={{width: "18rem"}}>
+                        <div class="card my-2" style={{width: "18rem"}}>
                             <img src="/img1.jpg" class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Sally Preston (CEO)</h5>
@@ -17,7 +17,7 @@ export default function AboutUs(props) {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card" style={{width: "18rem"}}>
+                        <div class="card my-2" style={{width: "18rem"}}>
                             <img src="img2.jpg" class="card-img-top" alt="..."/>
                                 <div class="card-body">
                                     <h5 class="card-title">Justine Williamson (CTO)</h5>
@@ -27,7 +27,7 @@ export default function AboutUs(props) {
                         </div>
                     </div>
                     <div class="col">
-                    <div class="card" style={{width: "18rem"}}>
+                    <div class="card my-2" style={{width: "18rem"}}>
                             <img src="img3.jpg" class="card-img-top" alt="..."/>
                                 <div class="card-body">
                                     <h5 class="card-title">Vania Gross (CFO)</h5>
